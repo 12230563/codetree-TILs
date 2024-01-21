@@ -1,4 +1,15 @@
-numbers = list(map(int,input().split()))
+def input_list():
+    num = []
+    while True:
+        input_data = input()
+        if input_data:
+            num.append(int(input_data))
+        else:
+            break
+    return num
+
+numbers = input_list()
+
 cout = 0
 
 for i in numbers:
