@@ -1,21 +1,19 @@
 def input_list():
     num = []
-    while True:
+    for i in range(5):
         input_data = input()
-        if input_data:
-            num.append(int(input_data))
-        else:
-            break
+        num.append(int(input_data))
+
     return num
 
 numbers = input_list()
 
-cout = 0
+count = 0
 
 for i in numbers:
     if i % 3 == 0:
         pass
     else:
-        cout += 1
+        count += 1
 
-print(1 if cout == 0 else 0)
+print(1 if count == 0 else 0)
