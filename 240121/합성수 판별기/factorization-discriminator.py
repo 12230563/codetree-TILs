@@ -8,7 +8,7 @@ def isprime(n):
 
 n = int(input())
 
-if isprime:
-    print("C")
-else:
+if isprime(n):
     print("N")
+else:
+    print("C")
