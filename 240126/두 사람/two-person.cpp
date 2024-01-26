@@ -9,9 +9,9 @@ int main() {
 
     bool A, B;
 
-    A = ((a_age >= 19) && (a_gender = 'M'));
-    B = ((b_age >= 19) && (b_gender= 'M'));
-
+    A = ((a_age >= 19) && (a_gender == 'M'));
+    B = ((b_age >= 19) && (b_gender == 'M'));
+    
     if (A || B){
         cout << 1;
     }
