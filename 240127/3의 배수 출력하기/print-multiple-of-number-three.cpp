@@ -5,7 +5,7 @@ int main() {
     int i = 1, n;
     cin >> n;
 
-    while (i <= n) {
+    while (i < n) {
         i++;
         if (i % 3 == 0){
             cout << i << ' ';
