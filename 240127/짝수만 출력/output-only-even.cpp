@@ -6,8 +6,8 @@ int main() {
     cin >> a >> b;
 
     int i = a;
-    while (i < b){
-        cout << i << '';
-        i += 2
+    while (i <= b) {
+        cout << i << ' ';
+        i += 2;
     }
 }
