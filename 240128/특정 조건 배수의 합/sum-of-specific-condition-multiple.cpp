@@ -11,8 +11,6 @@ int main() {
         a = b;
         b = temp;
     }
-    
-    cout << a << b;
 
     for (int i = a; i <= b; i++) {
         if (i % 5 == 0) {
