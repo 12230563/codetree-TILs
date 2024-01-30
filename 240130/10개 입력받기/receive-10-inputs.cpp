@@ -16,7 +16,7 @@ int main() {
     if (arr[i] == 0) 
         avg = static_cast<double>(sum) / i;
     else
-        avg = static_cast<double>(sum) / i + 1;
+        avg = static_cast<double>(sum) / 10;
     
     cout << fixed << setprecision(1) << sum << ' ' << avg;    
 
