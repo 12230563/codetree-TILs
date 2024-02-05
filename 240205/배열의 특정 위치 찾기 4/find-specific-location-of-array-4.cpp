@@ -12,10 +12,10 @@ int main() {
             break;
     }
 
-    for (i = 0; i < 10; i++) {
-        if (arr[i] % 2 == 0 && arr[i] != 0) {
+    for (int n = 0; n < i - 1; n++) {
+        if (arr[n] % 2 == 0 && arr[n] != 0) {
             cnt++;
-            sum += arr[i];
+            sum += arr[n];
         }
     }
     cout << cnt << ' ' << sum;
