@@ -12,7 +12,7 @@ int main() {
             break;
     }
 
-    for (int n = 0; n < i - 1; n++) {
+    for (int n = 0; n < i; n++) {
         if (arr[n] % 2 == 0 && arr[n] != 0) {
             cnt++;
             sum += arr[n];
