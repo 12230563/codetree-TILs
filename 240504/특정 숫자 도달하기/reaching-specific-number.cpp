@@ -1,4 +1,5 @@
 #include <iostream>
+#include <iomanip>
 using namespace std;
 
 int main() {
@@ -13,6 +14,6 @@ int main() {
         }
         else break;
     }
-    cout << sum << ' ' << static_cast<double>(sum) / j;
+    cout << sum << ' ' << fixed << setprecision(1) << static_cast<double>(sum) / j;
 
 }
