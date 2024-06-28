@@ -13,6 +13,6 @@ int main() {
 bool fun(int n) {
     int cond1;
     cond1 = (n / 10) + (n % 10);
-    if(n % 2 == 0 || cond1 % 5 == 0) return true;
+    if(n % 2 == 0 && cond1 % 5 == 0) return true;
     else return false;
 }
