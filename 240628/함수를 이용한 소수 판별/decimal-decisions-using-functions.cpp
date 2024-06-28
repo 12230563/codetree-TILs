@@ -1,4 +1,5 @@
 #include <iostream>
+#include <string>
 using namespace std;
 
 bool IsPrimeN(int);
@@ -16,6 +17,7 @@ int main() {
 
 bool IsPrimeN(int n) {
     if (n == 2) return true;
+    if (n == 1) return false;
 
     for (int i = 2; i * i <= n; i++) {
         if(n % i == 0) {
