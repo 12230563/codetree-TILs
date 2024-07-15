@@ -8,7 +8,7 @@ int main() {
     int sum = 0;
     int a, b;
     cin >> a >> b;
-    while (a > 0) {
+    while (a != 0) {
         temp[Remain(a, b)]++;
         a /= b;
     }
