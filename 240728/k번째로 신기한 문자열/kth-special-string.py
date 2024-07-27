@@ -12,4 +12,4 @@ for i in range(n):
 
 str2.sort()
 
-print(str2[k - 1])
+print(str2[k])
