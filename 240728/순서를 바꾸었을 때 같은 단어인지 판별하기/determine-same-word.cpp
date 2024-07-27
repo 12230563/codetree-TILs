@@ -18,6 +18,11 @@ int main() {
     sort(v1.begin(), v1.end());
     sort(v2.begin(), v2.begin());
 
+    if (v1.size() ! = v2.size) {
+        cout << "No";
+        return 0;
+    }
+
     for (int i = 0; i < v1.size(); i++) {
         if (v1[i] != v2[i]) {
             cond = false;
